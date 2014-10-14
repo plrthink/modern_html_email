@@ -2,12 +2,13 @@ Responsive email workflow
 -------------
 setup
 
-    gem install premailer   
-    npm install 
-    bower install   
+    gem install premailer nokogiri
+    npm install gulp bower
+    npm install
+    bower install
 
 write some code
-   
+
     gulp watch
 
 for production
