@@ -55,7 +55,10 @@ gulp.task('premailer', function() {
 });
 
 gulp.task('clean', function () {
-  return gulp.src(['.tmp', 'dist'], { read: false }).pipe($.clean());
+  var del = require('del');
+  del(['.tmp', 'dist'], function (msg) {
+    console.log('Files deleted.');
+  });
 });
 
 gulp.task('build', ['html', 'images', 'extras'], function () {
