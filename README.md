@@ -16,7 +16,7 @@ Morden html email workflow
 
     gulp 
 
-then index.html in dest folder is what you want.
+then index.html in dist folder is what you want.
 
 ####todo
 
