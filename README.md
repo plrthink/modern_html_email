@@ -1,4 +1,4 @@
-Responsive email workflow
+Morden html email workflow
 -------------
 setup
 
