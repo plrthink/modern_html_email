@@ -14,8 +14,7 @@ Morden html email workflow
 
 ####for production
 
-    gulp
-    gulp premailer
+    gulp 
 
 then index.html in dest folder is what you want.
 

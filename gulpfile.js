@@ -57,16 +57,17 @@ gulp.task('premailer', function() {
 gulp.task('clean', function () {
   var del = require('del');
   del(['.tmp', 'dist'], function (msg) {
-    console.log('Files deleted.');
+    console.log('Deleted files.');
   });
 });
 
-gulp.task('build', ['html', 'images', 'extras'], function () {
-  gulp.start('uncss');
+gulp.task('build', ['clean'], function () {
+  gulp.start('html', 'images', 'extras')
+    .start('uncss');
 });
 
-gulp.task('default', ['clean'], function () {
-  gulp.start('build');
+gulp.task('default', function () {
+  gulp.start('premailer');
 });
 
 gulp.task('connect', function () {
