@@ -21,7 +21,7 @@ then index.html in dest folder is what you want.
 
 ####todo
 
-* More fancy style
+* more fancy style
 * become a yeoman generator
 
 waiting for your pull request~
