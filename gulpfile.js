@@ -61,12 +61,11 @@ gulp.task('clean', function () {
   });
 });
 
-gulp.task('build', ['clean'], function () {
-  gulp.start('html', 'images', 'extras')
-    .start('uncss');
+gulp.task('build', ['clean', 'html', 'images', 'extras'], function () {
+  gulp.start('uncss');
 });
 
-gulp.task('default', function () {
+gulp.task('default', ['build'], function () {
   gulp.start('premailer');
 });
 
