@@ -1,5 +1,7 @@
 Morden html email workflow
 -------------
+[slides about morden html email](http://plrthink.github.io/modern_html_email)
+
 ####setup
 
     gem install premailer nokogiri
