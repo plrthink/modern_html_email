@@ -1,8 +1,0 @@
-{
-  "name": "responsive_email_workflow",
-  "private": true,
-  "dependencies": {
-    "ink": "~1.0.5"
-  },
-  "devDependencies": {}
-}
