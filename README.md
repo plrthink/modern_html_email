@@ -1,6 +1,6 @@
 Morden html email workflow
 -------------
-[slides about morden html email](http://plrthink.github.io/modern_html_email)
+[slides about modern html email](http://plrthink.github.io/modern_html_email)
 
 ####setup
 
